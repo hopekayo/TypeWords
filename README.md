@@ -89,6 +89,8 @@ This project is built with `Nuxt` and requires a Node.js environment.
 
 Native builds for Windows, macOS, and Linux are supported on this fork via Tauri 2. See **[Desktop packaging](/docs/desktop.md)** for Rust prerequisites and `pnpm run tauri:dev` / `pnpm run tauri:build`.
 
+**Android and iOS** installable builds use the same Nuxt bundle with Tauri 2 mobile. See **[Mobile packaging](/docs/mobile.md)** for SDK setup, `pnpm run tauri:android:build`, and Mac-only iOS steps.
+
 ## Features and Suggestions
 
 The project is currently in early development, with new features being added continuously. If you have any suggestions or feature requests, feel free to open an `Issue`.

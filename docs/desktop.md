@@ -1,6 +1,6 @@
 # TypeWords Desktop (Tauri 2)
 
-This fork packages the static Nuxt site as a native desktop app for **Windows**, **macOS**, and **Linux** using [Tauri 2](https://v2.tauri.app/). Mobile targets are not supported here.
+This fork packages the static Nuxt site as a native desktop app for **Windows**, **macOS**, and **Linux** using [Tauri 2](https://v2.tauri.app/). **Android and iOS** use the same frontend via Tauri mobile; see **[Mobile packaging](/docs/mobile.md)**.
 
 The UI is the same as the web app: `pnpm run generate` writes assets to `.output/public`, and Tauri loads that folder at runtime (local `asset://` protocol). Practice data stays in **IndexedDB / localStorage** on the device; optional Supabase sync still works when configured.
 
