@@ -85,6 +85,10 @@ This project is built with `Nuxt` and requires a Node.js environment.
 5. Open [`http://localhost:5567`](http://localhost:5567) in your browser to access the project.
 6. Run `pnpm run generate` to build the project files.
 
+## Desktop app (Tauri)
+
+Native builds for Windows, macOS, and Linux are supported on this fork via Tauri 2. See **[Desktop packaging](/docs/desktop.md)** for Rust prerequisites and `pnpm run tauri:dev` / `pnpm run tauri:build`.
+
 ## Features and Suggestions
 
 The project is currently in early development, with new features being added continuously. If you have any suggestions or feature requests, feel free to open an `Issue`.

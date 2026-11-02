@@ -7,6 +7,9 @@
     "build": "nuxt build",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build",
     "i18n:write": "gulp i18nWrite",
     "test": ""
   },
@@ -63,6 +66,7 @@
     "@iconify-json/streamline-color": "^1.2.2",
     "@iconify-json/system-uicons": "^1.2.4",
     "@iconify-json/uiw": "^1.2.3",
+    "@tauri-apps/cli": "^2.12.4",
     "@types/file-saver": "^2.0.7",
     "@types/lodash-es": "^4.17.12",
     "@types/md5": "^2.1.33",
